@@ -16,6 +16,24 @@ Além da implementação preditiva, o notebook disseca a formulação matemátic
 
 ---
 
+## Preparar Ambiente para Executar
+```bash
+
+# 1. Criar e ativar o ambiente virtual (já ignorado pelo .gitignore)
+python3 -m venv .venv
+source .venv/bin/activate
+
+# 2. Instalar as dependências
+pip install --upgrade pip
+pip install -r requirements.txt
+
+# 3. Adicionar o requirements.txt ao repositório
+git add requirements.txt
+git commit -m "chore: adiciona requirements.txt para reproducibilidade do ambiente"
+git push
+
+```
+
 ## Estrutura do Repositório
 
 ```text
@@ -24,3 +42,4 @@ Além da implementação preditiva, o notebook disseca a formulação matemátic
 ├── amongUs-np2-wans_5.pdf              # Relatório técnico exportado em PDF
 ├── .gitignore                          # Arquivos e diretórios ignorados pelo Git
 └── README.md                           # Documentação do projeto
+
