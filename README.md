@@ -26,12 +26,6 @@ source .venv/bin/activate
 # 2. Instalar as dependências
 pip install --upgrade pip
 pip install -r requirements.txt
-
-# 3. Adicionar o requirements.txt ao repositório
-git add requirements.txt
-git commit -m "chore: adiciona requirements.txt para reproducibilidade do ambiente"
-git push
-
 ```
 
 ## Estrutura do Repositório
