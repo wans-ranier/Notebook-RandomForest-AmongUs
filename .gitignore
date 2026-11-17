@@ -1,0 +1,32 @@
+# Checkpoints e arquivos temporários do Jupyter / Colab
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Cache e arquivos compilados do Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+ENV/
+
+# Variáveis de ambiente e credenciais (Segurança)
+.env
+.env.*
+kaggle.json
+*.pem
+*.key
+
+# Arquivos de configuração de IDEs (VS Code / PyCharm)
+.vscode/
+.idea/
+
+# Arquivos ocultos de sistema operacional (Windows / macOS / Linux)
+Thumbs.db
+desktop.ini
+.DS_Store
+*~
