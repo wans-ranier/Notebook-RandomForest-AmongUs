@@ -21,6 +21,8 @@ kaggle.json
 *.pem
 *.key
 
+.venv
+
 # Arquivos de configuração de IDEs (VS Code / PyCharm)
 .vscode/
 .idea/
